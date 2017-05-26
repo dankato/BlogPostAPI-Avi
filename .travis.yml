@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: fttTAeaaKxrZFq6sVuCgMtuOq+3kINp6YAMlWFClR6tMA3eJySBkMhDxGHAU9xsk3uE23NbAmwubs6WxKarEV/5Od1G0Vtst98bOmCu6KWv/8t8w+UtUxIxCxE+ws6BwT+tbI3rtyVfBGu69IRWAnCCXoka8K9lYohl1AByo+fpQBdYirztL+n9G2cdKQsiZ4RzXZJpF3J4BZ1Y0Gdw5N13TlgTrxq2LfWoonFj/dcNfxlt2Ma1OFaxTir2QjTRYOrTz8bYpIEToIq1aCEQtfPAbpIywcpZHbxYsSwl7FwLE7TGYcHwxmtzfV2YE4II+Ziiqk6BHwJx1Ytd30LhyKn7Vvm8Ve6YOX1femb0dKfQB3EloofLf+XG4W+hr/OJR9t7TmBk2pkUS5qTtNX0rwhsM2+nTwBCz9nclnmEPp2XwyxYO+jZ1HKHkRInG2lBYMAUId/98XBZtt6waePRO5DD/dFBmUAMpdLGHhkuzd9bYIiiyqY4tmaoh4EcaIVVLLbuS4VVcV0iZtD8vJBF0K8p2jjQvr1C0v4GAj7CM0dJ77NmfGj0j3bdq64+g5nqL8kHkBK5oQrTmRedh0HU5W6vlK9boOd8qnZNdhaoEdpqQe/2pcYF0P7ySNJCjUUlGkJlC0Igr+JY+2OTnvnJMfcsf5t2Om4bEVzohBJPmYxM=
+  app: limitless-sierra-24373
+  on:
+    repo: dankato/BlogPostAPI-Avi
